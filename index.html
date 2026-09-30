@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nihal's Portfolio</title>
+  <link rel="canonical" href="https://nihalmuhammedtech.github.io/">
+  <meta name="theme-color" content="#07050d">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nihalmuhammedtech.github.io/">
+  <meta property="og:title" content="Nihal's Portfolio">
+  <meta property="og:image" content="https://nihalmuhammedtech.github.io/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Nihal's Portfolio">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nihal's Portfolio">
+  <meta name="twitter:image" content="https://nihalmuhammedtech.github.io/assets/og-image.png">
+
+  <script>document.documentElement.classList.add("js");</script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Nihal Muhammed",
+  "jobTitle": "Network Engineer and IT Support Engineer",
+  "url": "https://nihalmuhammedtech.github.io/",
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "Kerala",
+    "addressCountry": "IN"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Asian International University"
+  },
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "name": "Cisco Certified Network Associate (CCNA)"
+  },
+  "knowsAbout": [
+    "Computer networking",
+    "Network troubleshooting",
+    "Packet analysis",
+    "Cisco routing and switching",
+    "Active Directory"
+  ]
+}
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2307050d'/%3E%3Cpath d='M9 22V10l14 12V10' fill='none' stroke='%238b5cf6' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" aria-hidden="true"><i></i></div>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="#top" aria-label="Nihal's Portfolio, back to top">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#150d2a"/><path d="M9 22V10l14 12V10" fill="none" stroke="#a78bfa" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Nihal's Portfolio</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav id="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#approach">Approach</a>
+        <a href="#projects">Projects</a>
+        <a href="#certification">Certification</a>
+        <a href="#contact" class="nav-contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <canvas id="net" aria-hidden="true"></canvas>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <h1>Nihal Muhammed</h1>
+          <p class="lead">I design and configure Cisco network infrastructure, perform packet-level fault analysis, and provide technical support across Windows, Linux, and macOS environments.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View projects</a>
+            <a class="btn btn-ghost" href="#contact">Contact me</a>
+          </div>
+          <ul class="hero-facts">
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.2-7 10-4-1.8-7-5.5-7-10V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>
+              CCNA certified
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>
+              Windows, Linux, macOS
+            </li>
+          </ul>
+        </div>
+
+        <figure class="hero-visual">
+          <div class="scene">
+            <picture>
+              <source media="(prefers-reduced-motion: reduce)" srcset="assets/portfolio-still.png">
+              <img src="assets/portfolio-animated.gif" width="720" height="379" alt="Animated cartoon of a network engineer waving at a laptop, with a cloud, router, server and computer connected by cables carrying messages" fetchpriority="high">
+            </picture>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <ul class="ticker-group"><li>TCP/IP</li><li>VLANs</li><li>OSPF</li><li>EIGRP</li><li>BGP</li><li>STP</li><li>DHCP</li><li>DNS</li><li>NAT / PAT</li><li>ACLs</li><li>Wireshark</li><li>Cisco Packet Tracer</li><li>Python</li><li>Active Directory</li><li>Group Policy</li></ul>
+        <ul class="ticker-group dup"><li>TCP/IP</li><li>VLANs</li><li>OSPF</li><li>EIGRP</li><li>BGP</li><li>STP</li><li>DHCP</li><li>DNS</li><li>NAT / PAT</li><li>ACLs</li><li>Wireshark</li><li>Cisco Packet Tracer</li><li>Python</li><li>Active Directory</li><li>Group Policy</li></ul>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="wrap about-grid">
+        <div class="about-text">
+          <h2>About</h2>
+          <p>CCNA-certified Electronics and Communication Engineering graduate with hands-on experience in network configuration, packet-level analysis, and technical support.</p>
+          <p>I isolate network problems methodically using ping, traceroute and Wireshark, and turn the findings into simple, clear documentation anyone can follow.</p>
+          <p>Proficient across Windows, Linux, and macOS, with working knowledge of Active Directory and Python-based automation for routine diagnostics.</p>
+
+          <dl class="facts">
+            <div><dt>Based in</dt><dd>Kerala, India</dd></div>
+            <div><dt>Languages</dt><dd>English, Malayalam, Hindi</dd></div>
+            <div><dt>Degree</dt><dd>B.Tech in Electronics and Communication Engineering</dd></div>
+            <div><dt>Certified</dt><dd>Cisco CCNA</dd></div>
+          </dl>
+        </div>
+
+        <div class="about-visuals">
+          <figure class="visual terminal" role="img" aria-label="Animated terminal window running ping, traceroute and show interface commands">
+            <div class="term-bar" aria-hidden="true"><i></i><i></i><i></i><b>network-lab</b></div>
+            <div class="term-body" aria-hidden="true">
+              <span class="ln cmd" style="--c:16;--d:0.3s;--t:1.0s">$ ping 192.0.2.1</span>
+              <span class="ln out" style="--c:30;--d:1.5s;--t:0.7s">Reply from 192.0.2.1: time&lt;1ms</span>
+              <span class="ln cmd" style="--c:25;--d:2.5s;--t:1.0s">$ traceroute 198.51.100.7</span>
+              <span class="ln out" style="--c:13;--d:3.7s;--t:0.5s"> 1  192.0.2.1</span>
+              <span class="ln out" style="--c:16;--d:4.4s;--t:0.5s"> 2  198.51.100.7</span>
+              <span class="ln cmd" style="--c:25;--d:5.3s;--t:1.0s">$ show ip interface brief</span>
+              <span class="ln out" style="--c:22;--d:6.5s;--t:0.5s">Gi0/1     up        up</span>
+              <span class="ln out" style="--c:22;--d:7.1s;--t:0.5s">Gi0/2     up        up</span>
+              <span class="cursor-line ln-end"><span class="cmd">$ </span><span class="cursor"></span></span>
+            </div>
+          </figure>
+
+          <figure class="visual rack" role="img" aria-label="Animated server rack with blinking status lights">
+            <svg class="anim" viewBox="0 0 200 300" aria-hidden="true">
+              <rect x="18" y="14" width="164" height="262" rx="10" fill="#0d0819" stroke="#a78bfa" stroke-width="1.6"/>
+              <rect x="24" y="20" width="152" height="10" rx="4" fill="#150d2a"/>
+              <rect x="30" y="34" width="140" height="38" rx="5" fill="#150d2a" stroke="#3a2b63" stroke-width="1.4"/>
+              <path d="M40 46h56M40 56h56" stroke="#3a2b63" stroke-width="2.4" stroke-linecap="round"/>
+              <circle class="led" cx="130" cy="47" r="2.6" fill="#c4b5fd"/>
+              <circle class="led l3" cx="142" cy="47" r="2.6" fill="#e879f9"/>
+              <circle class="led" cx="154" cy="47" r="2.6" fill="#8b5cf6"/>
+              <rect x="120" y="58" width="42" height="5" rx="2.5" fill="#3a2b63"/>
+              <rect x="30" y="80" width="140" height="38" rx="5" fill="#150d2a" stroke="#3a2b63" stroke-width="1.4"/>
+              <path d="M40 92h56M40 102h56" stroke="#3a2b63" stroke-width="2.4" stroke-linecap="round"/>
+              <circle class="led l2" cx="130" cy="93" r="2.6" fill="#c4b5fd"/>
+              <circle class="led l2" cx="142" cy="93" r="2.6" fill="#e879f9"/>
+              <circle class="led l3" cx="154" cy="93" r="2.6" fill="#8b5cf6"/>
+              <rect x="120" y="104" width="42" height="5" rx="2.5" fill="#3a2b63"/>
+              <rect x="30" y="126" width="140" height="38" rx="5" fill="#150d2a" stroke="#3a2b63" stroke-width="1.4"/>
+              <path d="M40 138h56M40 148h56" stroke="#3a2b63" stroke-width="2.4" stroke-linecap="round"/>
+              <circle class="led" cx="130" cy="139" r="2.6" fill="#c4b5fd"/>
+              <circle class="led l2" cx="142" cy="139" r="2.6" fill="#e879f9"/>
+              <circle class="led" cx="154" cy="139" r="2.6" fill="#8b5cf6"/>
+              <rect x="120" y="150" width="42" height="5" rx="2.5" fill="#3a2b63"/>
+              <rect x="30" y="172" width="140" height="38" rx="5" fill="#150d2a" stroke="#3a2b63" stroke-width="1.4"/>
+              <path d="M40 184h56M40 194h56" stroke="#3a2b63" stroke-width="2.4" stroke-linecap="round"/>
+              <circle class="led l2" cx="130" cy="185" r="2.6" fill="#c4b5fd"/>
+              <circle class="led l3" cx="142" cy="185" r="2.6" fill="#e879f9"/>
+              <circle class="led l3" cx="154" cy="185" r="2.6" fill="#8b5cf6"/>
+              <rect x="120" y="196" width="42" height="5" rx="2.5" fill="#3a2b63"/>
+              <rect x="30" y="218" width="140" height="38" rx="5" fill="#150d2a" stroke="#3a2b63" stroke-width="1.4"/>
+              <path d="M40 230h56M40 240h56" stroke="#3a2b63" stroke-width="2.4" stroke-linecap="round"/>
+              <circle class="led" cx="130" cy="231" r="2.6" fill="#c4b5fd"/>
+              <circle class="led l2" cx="142" cy="231" r="2.6" fill="#e879f9"/>
+              <circle class="led" cx="154" cy="231" r="2.6" fill="#8b5cf6"/>
+              <rect x="120" y="242" width="42" height="5" rx="2.5" fill="#3a2b63"/>
+              <path d="M40 276v10M160 276v10" stroke="#3a2b63" stroke-width="4" stroke-linecap="round"/>
+            </svg>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section-alt" id="skills">
+      <div class="wrap">
+        <h2>Skills</h2>
+        <p class="section-intro">What I work with day to day, from the network layer up to the end user's desk.</p>
+
+        <div class="skills-grid">
+          <ul class="competencies">
+            <li>
+              <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="M21 21l-5-5"/></svg></span>
+              <div>
+                <h3>Network troubleshooting</h3>
+                <p>Root-cause analysis with ping, traceroute and Wireshark, plus clean escalation when an issue needs to move on.</p>
+              </div>
+            </li>
+            <li>
+              <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="6" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><path d="M7 6h10M6 8l5 8M18 8l-5 8"/></svg></span>
+              <div>
+                <h3>Network engineering</h3>
+                <p>TCP/IP, routing and switching, VLAN segmentation and firewall fundamentals.</p>
+              </div>
+            </li>
+            <li>
+              <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 14v-2a8 8 0 0116 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg></span>
+              <div>
+                <h3>IT support and helpdesk</h3>
+                <p>Hardware and software troubleshooting, remote support, incident resolution and end-user care.</p>
+              </div>
+            </li>
+            <li>
+              <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="6" rx="1.5"/><rect x="3" y="14" width="18" height="6" rx="1.5"/><path d="M7 7h.01M7 17h.01"/></svg></span>
+              <div>
+                <h3>Systems administration</h3>
+                <p>Windows, Linux and macOS, with Active Directory users, OUs and Group Policy.</p>
+              </div>
+            </li>
+            <li>
+              <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 8l-4 4 4 4M16 8l4 4-4 4M14 5l-4 14"/></svg></span>
+              <div>
+                <h3>Automation and documentation</h3>
+                <p>Python for network diagnostics, and clear write-ups for non-technical readers.</p>
+              </div>
+            </li>
+          </ul>
+
+          <div class="toolkit">
+            <div class="tool-group">
+              <h3>Networking</h3>
+              <p class="chips">
+                <span>TCP/IP</span><span>OSI model</span><span>IPv4 / IPv6</span><span>Subnetting</span><span>VLANs</span><span>Trunking</span><span>Inter-VLAN routing</span><span>WLAN</span><span>STP</span><span>DHCP</span><span>DNS</span><span>NAT / PAT</span><span>ACLs</span><span>RIP</span><span>EIGRP</span><span>OSPF</span><span>BGP</span>
+              </p>
+            </div>
+            <div class="tool-group">
+              <h3>Cisco devices</h3>
+              <p class="chips"><span>Routers</span><span>Switches</span><span>Access points</span><span>WLC</span><span>Firewalls</span></p>
+            </div>
+            <div class="tool-group">
+              <h3>Active Directory</h3>
+              <p class="chips"><span>Users and groups</span><span>Computers</span><span>OUs</span><span>GPOs</span><span>Domain join</span><span>Account troubleshooting</span></p>
+            </div>
+            <div class="tool-group">
+              <h3>Operating systems and support</h3>
+              <p class="chips"><span>Windows</span><span>Linux</span><span>macOS</span><span>Remote support</span><span>Incident resolution</span><span>Documentation</span></p>
+            </div>
+            <div class="tool-group">
+              <h3>Scripting and web</h3>
+              <p class="chips"><span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="osi">
+          <div class="osi-head">
+            <h3>Across the stack</h3>
+            <p>Select a layer of the OSI model to see what I work with there.</p>
+          </div>
+          <div class="osi-body">
+            <div class="osi-layers" role="tablist" aria-label="OSI model layers" aria-orientation="vertical">
+          <button type="button" role="tab" id="osi-t7" aria-controls="osi-p7" aria-selected="false" tabindex="-1"><b>7</b>Application</button>
+          <button type="button" role="tab" id="osi-t6" aria-controls="osi-p6" aria-selected="false" tabindex="-1"><b>6</b>Presentation</button>
+          <button type="button" role="tab" id="osi-t5" aria-controls="osi-p5" aria-selected="false" tabindex="-1"><b>5</b>Session</button>
+          <button type="button" role="tab" id="osi-t4" aria-controls="osi-p4" aria-selected="false" tabindex="-1"><b>4</b>Transport</button>
+          <button type="button" role="tab" id="osi-t3" aria-controls="osi-p3" aria-selected="true" tabindex="0"><b>3</b>Network</button>
+          <button type="button" role="tab" id="osi-t2" aria-controls="osi-p2" aria-selected="false" tabindex="-1"><b>2</b>Data link</button>
+          <button type="button" role="tab" id="osi-t1" aria-controls="osi-p1" aria-selected="false" tabindex="-1"><b>1</b>Physical</button>
+            </div>
+            <div class="osi-panels">
+          <div role="tabpanel" id="osi-p7" aria-labelledby="osi-t7" hidden>
+            <span class="osi-pdu">Layer 7 unit: Data</span>
+            <h4>Application layer</h4>
+            <p>Where people meet the network. Name resolution and address assignment either work or they don't, and most support tickets start here.</p>
+            <p class="chips"><span>DNS</span><span>DHCP</span><span>Remote support</span><span>End-user support</span></p>
+          </div>
+          <div role="tabpanel" id="osi-p6" aria-labelledby="osi-t6" hidden>
+            <span class="osi-pdu">Layer 6 unit: Data</span>
+            <h4>Presentation layer</h4>
+            <p>Data formats and encryption. I inspect this layer end to end in packet captures rather than in isolation.</p>
+            <p class="chips"><span>Wireshark</span></p>
+          </div>
+          <div role="tabpanel" id="osi-p5" aria-labelledby="osi-t5" hidden>
+            <span class="osi-pdu">Layer 5 unit: Data</span>
+            <h4>Session layer</h4>
+            <p>Conversations between hosts. Dropped or stalled sessions show up in captures as resets and timeouts.</p>
+            <p class="chips"><span>Wireshark</span></p>
+          </div>
+          <div role="tabpanel" id="osi-p4" aria-labelledby="osi-t4" hidden>
+            <span class="osi-pdu">Layer 4 unit: Segment</span>
+            <h4>Transport layer</h4>
+            <p>Reliable delivery. I read TCP handshakes and retransmissions to tell a slow network from a broken one, and filter traffic with access lists.</p>
+            <p class="chips"><span>TCP handshakes</span><span>Retransmissions</span><span>ACLs</span><span>NAT / PAT</span></p>
+          </div>
+          <div role="tabpanel" id="osi-p3" aria-labelledby="osi-t3">
+            <span class="osi-pdu">Layer 3 unit: Packet</span>
+            <h4>Network layer</h4>
+            <p>Addressing and routing between networks. This is where most connectivity faults are found, and confirmed with ping and traceroute.</p>
+            <p class="chips"><span>IPv4 / IPv6</span><span>Subnetting</span><span>Inter-VLAN routing</span><span>RIP</span><span>EIGRP</span><span>OSPF</span><span>BGP</span><span>ping</span><span>traceroute</span></p>
+          </div>
+          <div role="tabpanel" id="osi-p2" aria-labelledby="osi-t2" hidden>
+            <span class="osi-pdu">Layer 2 unit: Frame</span>
+            <h4>Data link layer</h4>
+            <p>Switching inside a network. Segmenting traffic and hardening access ports.</p>
+            <p class="chips"><span>VLANs</span><span>Trunking</span><span>STP</span><span>WLAN</span><span>Port Security</span><span>DHCP Snooping</span></p>
+          </div>
+          <div role="tabpanel" id="osi-p1" aria-labelledby="osi-t1" hidden>
+            <span class="osi-pdu">Layer 1 unit: Bits</span>
+            <h4>Physical layer</h4>
+            <p>Cables, ports and radios. Hardware faults get ruled in or out first.</p>
+            <p class="chips"><span>Cisco switches</span><span>Access points</span><span>Hardware troubleshooting</span></p>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- APPROACH -->
+    <section class="section" id="approach">
+      <div class="wrap">
+        <h2>How I troubleshoot</h2>
+        <p class="section-intro">A repeatable process that moves from symptom to documented fix.</p>
+        <div class="approach-grid">
+          <ol class="steps">
+            <li>
+              <span class="step-n">1</span>
+              <div><h3>Define the symptom</h3><p>Reproduce the problem and establish exactly who and what is affected.</p></div>
+            </li>
+            <li>
+              <span class="step-n">2</span>
+              <div><h3>Isolate the layer</h3><p>Use ping and traceroute to find where connectivity breaks down.</p></div>
+            </li>
+            <li>
+              <span class="step-n">3</span>
+              <div><h3>Capture and analyze</h3><p>Apply Wireshark filters to inspect handshakes, retransmissions, and DNS and DHCP exchanges.</p></div>
+            </li>
+            <li>
+              <span class="step-n">4</span>
+              <div><h3>Fix and verify</h3><p>Make the change, then confirm that nothing else was disrupted.</p></div>
+            </li>
+            <li>
+              <span class="step-n">5</span>
+              <div><h3>Document</h3><p>Record the root cause and the fix in plain language for the next person.</p></div>
+            </li>
+          </ol>
+
+          <figure class="capture" id="capture">
+            <div class="term-bar"><i></i><i></i><i></i><b>packet capture</b><button type="button" class="cap-replay">Replay</button></div>
+            <div class="cap-scroll">
+              <table class="cap-table">
+                <thead><tr><th scope="col">No.</th><th scope="col">Source</th><th scope="col">Destination</th><th scope="col">Protocol</th><th scope="col">Info</th></tr></thead>
+                <tbody>
+                <tr style="--i:0"><td>1</td><td>0.0.0.0</td><td>255.255.255.255</td><td><span class="tag p-dhcp">DHCP</span></td><td>Discover</td></tr>
+                <tr style="--i:1"><td>2</td><td>192.0.2.1</td><td>192.0.2.10</td><td><span class="tag p-dhcp">DHCP</span></td><td>Offer</td></tr>
+                <tr style="--i:2"><td>3</td><td>0.0.0.0</td><td>255.255.255.255</td><td><span class="tag p-dhcp">DHCP</span></td><td>Request</td></tr>
+                <tr style="--i:3"><td>4</td><td>192.0.2.1</td><td>192.0.2.10</td><td><span class="tag p-dhcp">DHCP</span></td><td>ACK</td></tr>
+                <tr style="--i:4"><td>5</td><td>192.0.2.10</td><td>192.0.2.53</td><td><span class="tag p-dns">DNS</span></td><td>Query A example.com</td></tr>
+                <tr style="--i:5"><td>6</td><td>192.0.2.53</td><td>192.0.2.10</td><td><span class="tag p-dns">DNS</span></td><td>Query response</td></tr>
+                <tr style="--i:6"><td>7</td><td>192.0.2.10</td><td>198.51.100.7</td><td><span class="tag p-tcp">TCP</span></td><td>SYN</td></tr>
+                <tr style="--i:7"><td>8</td><td>198.51.100.7</td><td>192.0.2.10</td><td><span class="tag p-tcp">TCP</span></td><td>SYN, ACK</td></tr>
+                <tr style="--i:8"><td>9</td><td>192.0.2.10</td><td>198.51.100.7</td><td><span class="tag p-tcp">TCP</span></td><td>ACK</td></tr>
+                <tr style="--i:9" class="flag"><td>10</td><td>192.0.2.10</td><td>198.51.100.7</td><td><span class="tag p-warn">TCP</span></td><td>Retransmission</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <figcaption>Illustrative capture using reserved documentation addresses. The highlighted retransmission is the kind of anomaly worth investigating.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-alt" id="projects">
+      <div class="wrap">
+        <h2>Projects</h2>
+        <p class="section-intro">Two lab projects that show how I design, test, measure and automate.</p>
+
+        <article class="project">
+          <div class="project-visual" aria-hidden="true">
+            <svg viewBox="0 0 420 300" role="img" aria-label="Diagram of a multi-VLAN network with a router, switches and PCs">
+              <defs>
+                <linearGradient id="lg1" x1="0" x2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#c4b5fd"/></linearGradient>
+              </defs>
+              <g class="links" stroke="url(#lg1)" stroke-width="1.6" fill="none" opacity=".85">
+                <path d="M210 62V112"/>
+                <path d="M210 112L100 172M210 112L320 172"/>
+                <path d="M100 172L52 238M100 172L148 238M320 172L272 238M320 172L368 238"/>
+              </g>
+              <g class="pulse" fill="#c4b5fd">
+                <circle r="3.5"><animateMotion dur="3.2s" repeatCount="indefinite" path="M210 62V112L100 172L52 238"/></circle>
+                <circle r="3.5"><animateMotion dur="3.8s" repeatCount="indefinite" begin="1s" path="M210 62V112L320 172L368 238"/></circle>
+              </g>
+              <g fill="#150d2a" stroke="#a78bfa" stroke-width="1.6">
+                <circle cx="210" cy="40" r="22"/>
+                <rect x="70" y="158" width="60" height="28" rx="6"/>
+                <rect x="290" y="158" width="60" height="28" rx="6"/>
+                <rect x="34" y="226" width="36" height="26" rx="4"/>
+                <rect x="130" y="226" width="36" height="26" rx="4"/>
+                <rect x="254" y="226" width="36" height="26" rx="4"/>
+                <rect x="350" y="226" width="36" height="26" rx="4"/>
+              </g>
+              <g fill="#ece8f7" font-family="IBM Plex Sans, sans-serif" font-size="11" text-anchor="middle">
+                <text x="210" y="44">Router</text>
+                <text x="100" y="176">Switch</text>
+                <text x="320" y="176">Switch</text>
+                <text x="52" y="243">PC</text>
+                <text x="148" y="243">PC</text>
+                <text x="272" y="243">PC</text>
+                <text x="368" y="243">PC</text>
+              </g>
+            </svg>
+          </div>
+          <div class="project-body">
+            <h3>Network Traffic Monitoring and Protocol Analysis Lab</h3>
+            <p class="project-tools"><span>Cisco Packet Tracer</span><span>Wireshark</span><span>VLANs</span></p>
+            <ul>
+              <li>Designed a multi-device virtual network in Cisco Packet Tracer, spread across multiple VLANs, to simulate enterprise-style traffic.</li>
+              <li>Analyzed traffic in Wireshark with custom filters to examine TCP handshakes, retransmissions, and DNS and DHCP exchanges, identifying protocol-level misconfigurations.</li>
+              <li>Documented root-cause findings in a structured troubleshooting log with clear, actionable fixes.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project project-flip">
+          <div class="project-visual" aria-hidden="true">
+            <svg viewBox="0 0 420 300" role="img" aria-label="Diagram showing lab devices feeding a Python script that produces a status report">
+              <defs>
+                <linearGradient id="lg2" x1="0" x2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#c4b5fd"/></linearGradient>
+              </defs>
+              <g fill="#150d2a" stroke="#a78bfa" stroke-width="1.6">
+                <rect x="24" y="52" width="92" height="34" rx="7"/>
+                <rect x="24" y="133" width="92" height="34" rx="7"/>
+                <rect x="24" y="214" width="92" height="34" rx="7"/>
+                <rect x="160" y="100" width="100" height="100" rx="14"/>
+                <rect x="304" y="82" width="96" height="136" rx="10"/>
+              </g>
+              <g stroke="url(#lg2)" stroke-width="1.6" fill="none">
+                <path d="M116 69C140 69 140 130 160 140M116 150H160M116 231C140 231 140 170 160 160M260 150H304"/>
+              </g>
+              <g fill="#ece8f7" font-family="IBM Plex Sans, sans-serif" font-size="11" text-anchor="middle">
+                <text x="70" y="73">Router</text>
+                <text x="70" y="154">Switch</text>
+                <text x="70" y="235">Switch</text>
+                <text x="210" y="154" font-size="13" font-weight="600">Python</text>
+                <text x="210" y="172">connectivity checks</text>
+                <text x="352" y="106">Status report</text>
+              </g>
+              <g stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+                <path d="M322 134l5 5 9-10" stroke="#a78bfa"/>
+                <path d="M322 164l5 5 9-10" stroke="#a78bfa"/>
+                <path d="M322 194l14-10M336 194l-14-10" stroke="#f0abfc"/>
+              </g>
+              <g stroke="#3a2b63" stroke-width="2" stroke-linecap="round">
+                <path d="M346 134h36M346 164h36M346 194h36"/>
+              </g>
+            </svg>
+          </div>
+          <div class="project-body">
+            <h3>Python-Based Network Diagnostics Automation</h3>
+            <p class="project-tools"><span>Python</span><span>Port Security</span><span>DHCP Snooping</span><span>ACLs</span></p>
+            <ul>
+              <li>Built a Python script to automate connectivity checks across multiple lab devices, replacing manual per-device testing.</li>
+              <li>Parsed router and switch show-command output into readable status reports, flagging interfaces or routes that deviated from the expected state.</li>
+              <li>Applied the tool during hardening exercises (Port Security, DHCP Snooping, ACLs) to confirm changes did not disrupt connectivity.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CERTIFICATION -->
+    <section class="section" id="certification">
+      <div class="wrap">
+        <h2>Certification</h2>
+        <div class="cert">
+          <svg class="cert-badge" viewBox="0 0 120 120" role="img" aria-label="Cisco Certified Network Associate badge">
+            <defs>
+              <linearGradient id="lg3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#4c1d95"/></linearGradient>
+            </defs>
+            <path d="M60 6l44 16v34c0 27-18 47-44 58C34 103 16 83 16 56V22L60 6z" fill="url(#lg3)"/>
+            <path d="M60 14l36 13v29c0 22-14 39-36 48-22-9-36-26-36-48V27l36-13z" fill="none" stroke="#ddd6fe" stroke-opacity=".5"/>
+            <text x="60" y="52" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#ede9fe">CISCO</text>
+            <text x="60" y="78" text-anchor="middle" font-family="Bricolage Grotesque, sans-serif" font-size="26" font-weight="800" fill="#fff">CCNA</text>
+          </svg>
+          <div class="cert-body">
+            <h3>Cisco Certified Network Associate</h3>
+            <p>Issued by Cisco Systems. Validates skills in network fundamentals, IP connectivity, network access, IP services, security fundamentals and automation.</p>
+            <dl class="cert-meta">
+              <div><dt>Certified</dt><dd>September 17, 2026</dd></div>
+              <div><dt>Valid through</dt><dd>September 17, 2029</dd></div>
+              <div><dt>Cisco ID</dt><dd>CSCO15295849</dd></div>
+            </dl>
+            <div class="validity">
+              <span>Sep 2026</span>
+              <div class="track" role="img" aria-label="Certification valid for three years, from September 2026 to September 2029"><i></i></div>
+              <span>Sep 2029</span>
+              <span class="validity-note">Three-year validity, with today marked</span>
+            </div>
+            <div class="cert-actions">
+              <a class="btn btn-primary" href="assets/ccna-certificate.pdf" target="_blank" rel="noopener">View certificate</a>
+              <a class="btn btn-ghost" href="https://www.cisco.com/go/verifycertificate" target="_blank" rel="noopener">Verify on Cisco</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section-alt" id="contact">
+      <div class="wrap contact-grid">
+        <div>
+          <h2>Contact</h2>
+          <p class="section-intro">For questions, collaboration or a conversation, send a message or reach me directly.</p>
+          <svg class="send" viewBox="0 0 380 96" aria-hidden="true">
+            <defs><linearGradient id="lgS" gradientUnits="userSpaceOnUse" x1="70" x2="310"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#e879f9"/></linearGradient></defs>
+            <path class="dash" d="M78 48H302" stroke="url(#lgS)" stroke-width="2" fill="none"/>
+            <g fill="#150d2a" stroke="#a78bfa" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="40" cy="48" r="30"/>
+              <circle cx="340" cy="48" r="30"/>
+            </g>
+            <g fill="none" stroke="#c4b5fd" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="40" cy="41" r="6"/><path d="M28 60c1-8 6-11 12-11s11 3 12 11"/>
+              <rect x="325" y="38" width="30" height="20" rx="3"/><path d="M325 41l15 10 15-10"/>
+            </g>
+            <circle r="4.5" fill="#f5d0fe"><animateMotion dur="2.6s" repeatCount="indefinite" path="M78 48H302"/></circle>
+            <circle r="4.5" fill="#c4b5fd" opacity=".8"><animateMotion dur="2.6s" begin="1.3s" repeatCount="indefinite" path="M78 48H302"/></circle>
+          </svg>
+          <ul class="contact-list">
+            <li>
+              <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+              <a href="mailto:alnih1814@gmail.com">alnih1814@gmail.com</a>
+              <button type="button" class="copy" data-copy="alnih1814@gmail.com" aria-label="Copy email address">Copy</button>
+            </li>
+            <li>
+              <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h4l2 5-2.5 1.5a11 11 0 005 5L16 12l5 2v4a2 2 0 01-2 2A16 16 0 014 5a2 2 0 012-2z"/></svg></span>
+              <a href="tel:+917902333532">+91 79023 33532</a>
+              <button type="button" class="copy" data-copy="+917902333532" aria-label="Copy phone number">Copy</button>
+            </li>
+            <li>
+              <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 005 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span>
+              <span>Kerala, India</span>
+            </li>
+          </ul>
+          <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+        </div>
+
+        <form id="contact-form" class="form" novalidate>
+          <label for="f-name">Your name</label>
+          <input id="f-name" name="name" type="text" autocomplete="name" required>
+          <label for="f-email">Your email</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" required>
+          <label for="f-msg">Message</label>
+          <textarea id="f-msg" name="message" rows="5" required></textarea>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          <button class="btn btn-primary" type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <p>&copy; <span id="year">2026</span> Nihal Muhammed</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <a href="#top" class="to-top" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></a>
+
+  <script src="script.js"></script>
+</body>
+</html>
